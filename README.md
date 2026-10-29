@@ -99,6 +99,7 @@ Created an initial system snapshot directly after network validation:
 - **Snapshot Label:** `Baseline - Clean Network Setup`
 - **Purpose:** Establishes an immutable recovery checkpoint. In the event of system corruption or package failure during intensive testing, the sandbox can be reverted in seconds.
 
+![](2-screenshot-kali-linux.png)
 ---
 
 ## 🔎 Post-Configuration Verification
@@ -138,8 +139,8 @@ Deterministic Infrastructure: Static IP assignments across testing hosts simplif
 Snapshot-Driven Workflows: In penetration testing environments, systems are designed to break. Maintaining versioned baseline snapshots ensures low-friction rollback following intensive binary testing or system modifications.
 
 🔗 Reference Toolchain
-Oracle VM VirtualBox: virtualbox.org
+Oracle VM VirtualBox: https://virtualbox.org
 
-Kali Linux Open-Source Platform: kali.org
+Kali Linux Open-Source Platform: https://kali.org
 
-7-Zip Archive Utility: 7-zip.org
+7-Zip Archive Utility: https://7-zip.org

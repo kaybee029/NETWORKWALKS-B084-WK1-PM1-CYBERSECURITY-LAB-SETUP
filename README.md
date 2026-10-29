@@ -37,6 +37,8 @@ This isolated testing laboratory supports standard defensive and offensive secur
 - Exploitation framework evaluations (Metasploit Framework).
 - Safe evaluation of custom tooling and automation scripts.
 
+
+
 > ⚠️ **Legal & Ethical Notice:** This lab environment is strictly intended for educational and authorized defensive/offensive assessment workflows. Interacting with, scanning, or exploiting networks or infrastructure without prior explicit written authorization is illegal.
 
 ---
@@ -73,6 +75,8 @@ Configured a private, multi-VM software-defined network within VirtualBox Global
 - **IPv4 Network Prefix:** `10.0.0.0/24`
 - **DHCP Service:** Enabled (for automated target provisioning)
 - **IPv6 Support:** Disabled
+
+![](1-NAT-settings.png)
 
 *Design Rationale:* Standard VirtualBox NAT limits communication strictly between the host and single guests. A **NAT Network** functions as a virtual switch, enabling multiple virtual machines to communicate directly while sharing an outbound NAT path to the internet.
 
